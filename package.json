@@ -1,0 +1,35 @@
+{
+  "name": "babel-gulp-boilerplate",
+  "version": "1.0.0",
+  "description": "Gulp 4, babel 7 project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "keywords": [
+    "gulp",
+    "babel",
+    "gulp 4",
+    "babel 7",
+    "gulp babel 8",
+    "nodemon"
+  ],
+  "author": "Vashitva Srivastava",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-nodemon": "^2.4.2",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "del": "^5.1.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "path": "^0.12.7"
+  }
+}
