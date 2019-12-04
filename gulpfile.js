@@ -28,7 +28,7 @@ gulp.task('watch', function(){
             DIST+'/',
             'node_modules/'
         ],
-        tasks : ['clean','build']
+        tasks : ['build']
     })
     return stream
         .on('start', function (){
